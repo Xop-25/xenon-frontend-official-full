@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Sidebar from './components/Sidebar';
-import ChatArea from './components/ChatArea';
+import Sidebar from './Sidebar';
+import ChatArea from './ChatArea';
 
 export default function App() {
   const [theme, setTheme] = useState<'light' | 'dark'>('dark');
